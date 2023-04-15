@@ -1,2 +1,1 @@
-# 11-Bit-ternary-generator
-generates all 11-Bit ternary numbers
+# base3/ternary number generator
