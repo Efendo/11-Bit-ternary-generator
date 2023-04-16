@@ -1,6 +1,6 @@
 import random
 
-class bitera():
+class PYCBase():
     def __init__(self, bit, base):
         self.bit = bit
         self.base = base
@@ -21,5 +21,5 @@ class bitera():
             self.nums.add(self.GenNum())
         return self.nums
 
-obj = bitera(int(input('bits: ')), int(input('base: ')))
+obj = PYCBase(int(input('bits: ')), int(input('base: ')))
 print(sorted(obj.GenLis()))
