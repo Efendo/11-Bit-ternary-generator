@@ -1,2 +1,2 @@
-# Custom base(0 - 9) number generator
+# Custom base(2 - 9) number generator
 
