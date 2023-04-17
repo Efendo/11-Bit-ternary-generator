@@ -14,7 +14,7 @@ PYCBase includes 2 methods first is GenNum() which generates from the initialize
 
 ## 4. Code Example
 
-1 import PYCBase
-2 
-3 obj = PYCBase.RBN(int(input('Bits: ')), int(input('Base: ')))
-4 print(obj.GenLis())
+1 import PYCBase \n
+2 \n
+3 obj = PYCBase.RBN(int(input('Bits: ')), int(input('Base: '))) \n
+4 print(obj.GenLis()) \n
