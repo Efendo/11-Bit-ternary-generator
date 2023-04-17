@@ -3,7 +3,9 @@
 PYCBase is a module which can generate from 0 - infinite bits custom base numbers (minimum is base2 (binary) and maximum is base10 (decimal))
 
 ## 1. installing PYCBase
-To install PYCBase go to the PYCModl file and click on it. After that click the 'raw' button to open the raw source code in you browser then in your browser right click the page and click 'save as' and save it as PYCModl.py
+In github repository: To install PYCBase go to the PYCModl file and click on it. After that click the 'raw' button to open the raw source code in you browser then in your browser right click the page and click 'save as' and save it as PYCModl.py
+In github pages (https:https://efendo.github.io/PYCBase/): type 'PYCBase.py' at the end of the url like this: https://efendo.github.io/PYCBase/PYCBase.py
+
 
 ## 2. importing PYCBase in python
 To use the PYCBModl module in python create a .py file in the same directory as PYCBModl.py
