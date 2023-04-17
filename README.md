@@ -13,8 +13,9 @@ To use PYCBase create an object and specify too parameters first is how many bit
 PYCBase includes 2 methods first is GenNum() which generates from the initialized PYCBase.RBN(x, y) from above and GenLis() which uses the GenNum() method to generate a list of all specified parameters (in this case its all 8-bits base2 numbers which is 255 numbers)
 
 ## 4. Code Example
+```
+import PYCBase 
 
-1 import PYCBase \n
-2 \n
-3 obj = PYCBase.RBN(int(input('Bits: ')), int(input('Base: '))) \n
-4 print(obj.GenLis()) \n
+obj = PYCBase.RBN(int(input('Bits: ')), int(input('Base: '))) \n
+print(obj.GenLis())
+```
