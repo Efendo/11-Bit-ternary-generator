@@ -19,7 +19,7 @@ if __name__ != '__main__':
         def glis(self):
             self.num = set()
             while len(self.nums) < self.base**self.bit:
-                self.nums.add(self.GenNum())
+                self.nums.add(self.gint())
             return sorted(self.nums)
 
 else:
