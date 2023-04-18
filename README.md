@@ -16,6 +16,6 @@ PYCBase includes 2 methods first is GenNum() which generates from the initialize
 ```
 import PYCBase 
 
-obj = PYCBase.RBN(int(input('Bits: ')), int(input('Base: ')))
-print(obj.GenLis())
+obj = PYCBase.gen(int(input('Bits: ')), int(input('Base: ')))
+print(obj.Glis())
 ```
